@@ -17,6 +17,7 @@ def twoSum(nums, target):
     # Step 6: if no numbers exist, spit out value error to signify the empty hash map
     raise ValueError("No two numbers add up to the target.")
 
+#Step 7: Implementation
 nums = [2, 7, 11, 15]
 target = 9
 result = twoSum(nums, target)
